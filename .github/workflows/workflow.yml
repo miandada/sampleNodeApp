@@ -3,3 +3,5 @@ on: [push]
 jobs:
   buildAndDeploy:
     uses: madBabel/helloworldjsReusable/.github/workflows/workflow.yml@main
+    with:
+      base_path: "sample-app"
