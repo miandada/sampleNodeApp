@@ -1,0 +1,5 @@
+name: "Build Sample App"
+on: [push]
+jobs:
+  buildAndDeploy:
+    uses: madBabel/helloworldjsReusable/.github/workflows/workflow.yml@main
